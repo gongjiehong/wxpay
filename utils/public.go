@@ -51,6 +51,9 @@ func SortKey(m map[string]interface{}) string {
 				value := strconv.Itoa(int(m[key].(float64)))
 				strArr = append(strArr, key+"="+value)
 			}
+		case interface{}:
+			b, _ := json.Marshal(m[key])
+			strArr = append(strArr, key+"="+string(b))
 		}
 	}
 
