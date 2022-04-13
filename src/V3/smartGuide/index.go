@@ -7,8 +7,8 @@
 package smartGuide
 
 import (
-	"github.com/wleven/wxpay/src/config"
-	"github.com/wleven/wxpay/utils"
+	"github.com/gongjiehong/wxpay-fix/src/config"
+	"github.com/gongjiehong/wxpay-fix/utils"
 )
 
 func New(config *config.V3) *SmartGuide {

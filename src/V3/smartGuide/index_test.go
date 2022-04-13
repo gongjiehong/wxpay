@@ -7,8 +7,9 @@
 package smartGuide
 
 import (
-	"github.com/wleven/wxpay/global"
 	"testing"
+
+	"github.com/gongjiehong/wxpay-fix/global"
 )
 
 var smartGuide = New(&global.V3)

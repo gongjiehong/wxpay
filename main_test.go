@@ -7,10 +7,11 @@
 package WXPay
 
 import (
-	"github.com/wleven/wxpay/global"
-	"github.com/wleven/wxpay/src/V2"
-	"github.com/wleven/wxpay/src/V3/smartGuide"
 	"testing"
+
+	"github.com/gongjiehong/wxpay-fix/global"
+	"github.com/gongjiehong/wxpay-fix/src/V2"
+	"github.com/gongjiehong/wxpay-fix/src/V3/smartGuide"
 )
 
 func TestInit(t *testing.T) {

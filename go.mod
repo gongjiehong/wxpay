@@ -1,3 +1,3 @@
-module github.com/gongjiehong/wxpay
+module github.com/gongjiehong/wxpay-fix
 
 go 1.15

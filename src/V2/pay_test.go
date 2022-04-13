@@ -1,9 +1,10 @@
 package V2
 
 import (
-	"github.com/wleven/wxpay/global"
 	"log"
 	"testing"
+
+	"github.com/gongjiehong/wxpay-fix/global"
 )
 
 var pay = WxPay{

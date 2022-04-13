@@ -6,7 +6,7 @@
 
 package V2
 
-import "github.com/wleven/wxpay/src/entity"
+import "github.com/gongjiehong/wxpay-fix/src/entity"
 
 func Init(config entity.PayConfig) *WxPay {
 	return &WxPay{config: config}
